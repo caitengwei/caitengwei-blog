@@ -1,0 +1,10 @@
+1.0.0 - 2010-09-01 - Matt Danner
+	Initial Release Version
+1.0.1 - 2010-09-01
+	Fixed float issue on single.php
+1.0.2 - 2010-09-02
+	Fixed headers in posts
+	Removed unnecessary RSS call in header.php
+	Removed unused fallbacks
+1.0.3 - 2011-02-10 - Matt Danner
+	Added default video embed size

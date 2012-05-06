@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WpMathPublisher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-23 17:49+0100\n"
+"PO-Revision-Date: 2012-04-23 17:53+0100\n"
+"Last-Translator: Timm Severin <timm.forallthestuff@web.de>\n"
+"Language-Team: Developer <wpmathpublisher@kraeuterbruederchen.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: C:/Users/Timm Severin/Desktop/plugin\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wpmathpublisher
+#: wpmathpublisher.php:131
+msgid "WpMathPublisher"
+msgstr "WpMathPublisher"
+
+# @ wpmathpublisher
+#: wpmathpublisher.php:141
+msgid "WpMathPublisher not yet ready: "
+msgstr "WpMathPublisher ist noch nicht einsatzbereit:"
+
+#: wpmathpublisher.php:141
+#, php-format
+msgid "Couldn't access image directory [%s], create it and chmod it to 777."
+msgstr "Konnte nicht auf das Bilderverzeichnis [%s] zugreifen, erstelle es und setze es auf chmod 777"
+
+#: wpmathpublisher.php:167
+msgid "Image directory does not exist. Trying to create it..."
+msgstr "Verzeichnis für Bilder existiert nicht, versuche es automatisch zu erstellen..."
+
+#: wpmathpublisher.php:169
+msgid "creating failed, permission denied. Please do the following steps manually:"
+msgstr "erstellen des Verzeichnisses fehlgeschlagen, keine Berechtigung. Bitte führe die folgenden Schritte manuell aus:"
+
+#: wpmathpublisher.php:172
+#: wpmathpublisher.php:190
+#, php-format
+msgid "Use a FTP-Client to access your wordpress installation and go to the WpMathPublisher-Plugin directory %s"
+msgstr "Suche mit einem FTP-Client das WpMathPublisher-Plugin (Verzeichnis %s)"
+
+#: wpmathpublisher.php:173
+msgid "Create a subdirectory \"img\""
+msgstr "Erstelle ein Unterverzeichnis \"img\""
+
+#: wpmathpublisher.php:174
+#: wpmathpublisher.php:191
+msgid "Grant full write access to the image directory (<i>chmod 777</i>)"
+msgstr "Setze für das erstellte Verzeichnis volle Schreibrecht (<i>chmod777</i>)"
+
+# @ wpmathpublisher
+#: wpmathpublisher.php:182
+#: wpmathpublisher.php:198
+msgid "successfull"
+msgstr "erfolgreich"
+
+#: wpmathpublisher.php:185
+msgid "Permission to write to image directory has been denied. Trying to set permissions..."
+msgstr "Schreiben im Bildverzeichnis nicht möglich. Versuche Berechtigungen zu setzen..."
+
+#: wpmathpublisher.php:187
+msgid "failed to set permissions. Please do the following steps manually:"
+msgstr "setzen der Berechtigungen fehlgeschlagen. Bitte führe folgende Schritte manuell aus:"
+
+#: wpmathpublisher.php:260
+msgid "invalid color value"
+msgstr "Ungültiger Farbwert"
+
+# @ wpmathpublisher
+#: wpmathpublisher.php:262
+msgid "transparency value is invalid"
+msgstr "Transparenz-Wert ist ungütlig"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:9
+msgid "Options resetted to default values"
+msgstr "Einstellungen wurden auf die Standardwerte zurückgesetzt"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:16
+msgid "Cache cleared"
+msgstr "Cache geleert"
+
+#: inc/admin_themePage.php:26
+#, php-format
+msgid "Font size must be between %1$d and %2$d"
+msgstr "Schriftgröße muss zwischen %1$d und %2$d liegen"
+
+#: inc/admin_themePage.php:28
+msgid "Font:"
+msgstr "Schrift:"
+
+#: inc/admin_themePage.php:29
+msgid "Back:"
+msgstr "Hintergrund:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:30
+msgid "Options:"
+msgstr "Einstellungen:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:35
+msgid "Update not successfull:"
+msgstr "Update nicht erfolgreich:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:38
+msgid "Options saved"
+msgstr "Einstellungen gespeichert"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:54
+msgid "WpMathPublisher Design"
+msgstr "WpMathPublisher Design"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:58
+msgid "Save"
+msgstr "Speichern"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:60
+msgid "Information:"
+msgstr "Informationen:"
+
+#: inc/admin_themePage.php:62
+msgid "Default image will look like this:"
+msgstr "Die Standarddarstellung wird wie folgt aussehen:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:65
+msgid "Reset to defaults"
+msgstr "Auf Standardeinstellungen zurücksetzen"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:67
+msgid "Font color"
+msgstr "Schriftfarbe"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:70
+#: inc/admin_themePage.php:93
+msgid "RGB-Value:"
+msgstr "RGB-Wert:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:73
+#: inc/admin_themePage.php:96
+msgid "Transparency:"
+msgstr "Transparenz:"
+
+#: inc/admin_themePage.php:75
+#: inc/admin_themePage.php:98
+msgid "opaque"
+msgstr "deckend"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:76
+#: inc/admin_themePage.php:99
+msgid "transparent"
+msgstr "transparent"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:90
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: inc/admin_themePage.php:111
+msgid "Font Options"
+msgstr "Schrift Einstellungen"
+
+#: inc/admin_themePage.php:114
+msgid "Font size:"
+msgstr "Schriftgröße:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:114
+#, php-format
+msgid "Allowed range: %1$d to %2$d"
+msgstr "Erlaubte Größe: %1$d bis %2$d"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:120
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:122
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:129
+msgid "Empty Cache"
+msgstr "Cache leeren"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:130
+msgid "Click this button to empty the image cache. This can be necessary if you changed colors and want your old images to be rendered again:"
+msgstr "Hier klicken um den Cache zu leeren. Dies kann nötig sein, wenn du die Farben ändern willst und die alten Bilder mit den neuen Farben neu erstellt weden sollen"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:131
+msgid "Clear cache"
+msgstr "Cache leeren"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:135
+msgid "User Guide"
+msgstr "Hilfe"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:137
+msgid "To use this plugin is quite easy. The most simple use is just to to convert formulas into readable images"
+msgstr "Die Benutzung des Plugins ist recht simpel, die einfachste Anwendung ist es einfach Formeln in lesbare Bilder umwandeln zu lassen"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:141
+#: inc/admin_themePage.php:147
+#: inc/admin_themePage.php:151
+#: inc/admin_themePage.php:157
+#: inc/admin_themePage.php:161
+#: inc/admin_themePage.php:165
+#: inc/admin_themePage.php:171
+#: inc/admin_themePage.php:175
+msgid "will be converted to"
+msgstr "wird umgewandelt zu"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:144
+msgid "If you don't like the size of the text in the images you can adjust it just by passing an additional attribute \"size\""
+msgstr "Wenn dir die Größe des Textes in einem speziellen Bild nicht passt, kannst du es leicht durch das optionale Attribut \"size\" anpassen"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:154
+msgid "In any case there even is an option if you do NOT want you're code to be parsed to an image. Just add the attribute noparse=\"true\""
+msgstr "Für alle Fälle gibt es sogar eine Option, mit der du verhindern kannst, dass Code geparst wird: Das Attribut noparse=\"true\" verhindert dies"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:168
+msgid "Of course you can combine all attributes:"
+msgstr "Natürlich kannst du alle Attribute kombinieren, wie es dir gerade passt:"
+
+# @ wpmathpublisher
+#: inc/admin_themePage.php:182
+msgid "PhpMathPublisher by"
+msgstr "PhpMathPublisher von"
+
+#: inc/admin_themePage.php:183
+msgid "Colorpicker by"
+msgstr "Farbwähler von"
+
+#: inc/admin_themePage.php:184
+msgid "Slider by"
+msgstr "Scrollbar von"
+

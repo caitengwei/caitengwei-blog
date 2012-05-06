@@ -1,0 +1,10 @@
+如果你正在使用sina-connect插件，可能会出现无法登陆的状况。
+暂时的解决办法：
+打开sina-connect下的sinaOAuth.php，把下面这行：
+require_once('OAuth.php');
+改为：
+if( !class_exists( 'OAuthToken' ) ){
+require_once('OAuth.php');
+}
+
+即可。
